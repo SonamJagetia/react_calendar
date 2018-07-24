@@ -31,6 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 # Use react in rails using react-rails gem file
 gem 'react-rails'
+gem 'haml'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
