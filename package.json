@@ -1,5 +1,7 @@
 {
   "name": "react_calendar",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "react-datetime": "^2.15.0"
+  }
 }

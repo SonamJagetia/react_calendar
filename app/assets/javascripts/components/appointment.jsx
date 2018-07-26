@@ -1,9 +1,9 @@
 var Appointment = createReactClass({
   render: function() {
     return (
-      <div>
+      <div className='appointment'>
         <h3>{this.props.appointment.title}</h3>
-        <p>{this.props.appointment.appt_time}</p>
+        <p>{formatDate(this.props.appointment.appt_time)}</p>
       </div>
     )
   }
